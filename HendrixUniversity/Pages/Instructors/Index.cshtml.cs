@@ -1,19 +1,19 @@
 using System;
-using ContosoUniversity.Models;
-using ContosoUniversity.Models.SchoolViewModels;  // Add VM
+using HendrixUniversity.Models;
+using HendrixUniversity.Models.SchoolViewModels;  // Add VM
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ContosoUniversity.Pages.Instructors
+namespace HendrixUniversity.Pages.Instructors
 {
     public class IndexModel : PageModel
     {
-        private readonly ContosoUniversity.Data.SchoolContext _context;
+        private readonly HendrixUniversity.Data.SchoolContext _context;
 
-        public IndexModel(ContosoUniversity.Data.SchoolContext context)
+        public IndexModel(HendrixUniversity.Data.SchoolContext context)
         {
             _context = context;
         }

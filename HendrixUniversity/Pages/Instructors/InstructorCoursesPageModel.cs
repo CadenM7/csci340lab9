@@ -1,11 +1,11 @@
-using ContosoUniversity.Data;
-using ContosoUniversity.Models;
-using ContosoUniversity.Models.SchoolViewModels;
+using HendrixUniversity.Data;
+using HendrixUniversity.Models;
+using HendrixUniversity.Models.SchoolViewModels;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ContosoUniversity.Pages.Instructors
+namespace HendrixUniversity.Pages.Instructors
 {
     public class InstructorCoursesPageModel : PageModel
     {
