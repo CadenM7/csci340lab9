@@ -20,6 +20,10 @@ namespace HendrixUniversity.Models
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         [Display(Name = "Enrollment Date")]
+        public string Age { get; set; }
+        [Required]
+        [StringLength(2)]
+        [Display(Name = "Age")]
         public DateTime EnrollmentDate { get; set; }
         [Display(Name = "Full Name")]
         public string FullName

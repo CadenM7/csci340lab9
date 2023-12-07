@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HendrixUniversity.Migrations
 {
     [DbContext(typeof(SchoolContext))]
-    [Migration("20231207193628_InitialCreate")]
+    [Migration("20231207210157_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -156,7 +156,11 @@ namespace HendrixUniversity.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Age")
+                        .HasColumnType("TEXT");
+
                     b.Property<DateTime>("EnrollmentDate")
+                        .HasMaxLength(2)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstMidName")

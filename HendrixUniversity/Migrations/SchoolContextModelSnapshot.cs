@@ -153,7 +153,11 @@ namespace HendrixUniversity.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Age")
+                        .HasColumnType("TEXT");
+
                     b.Property<DateTime>("EnrollmentDate")
+                        .HasMaxLength(2)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("FirstMidName")

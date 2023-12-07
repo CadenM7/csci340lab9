@@ -34,7 +34,8 @@ namespace HendrixUniversity.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     LastName = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
                     FirstName = table.Column<string>(type: "TEXT", maxLength: 50, nullable: false),
-                    EnrollmentDate = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    Age = table.Column<string>(type: "TEXT", nullable: true),
+                    EnrollmentDate = table.Column<DateTime>(type: "TEXT", maxLength: 2, nullable: false)
                 },
                 constraints: table =>
                 {
