@@ -1,0 +1,8 @@
+C:\Users\caden\OneDrive\Databases\csci340lab9\HendrixUniversity\obj\Debug\net7.0\HendrixUniversity.csproj.AssemblyReference.cache
+C:\Users\caden\OneDrive\Databases\csci340lab9\HendrixUniversity\obj\Debug\net7.0\HendrixUniversity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caden\OneDrive\Databases\csci340lab9\HendrixUniversity\obj\Debug\net7.0\HendrixUniversity.AssemblyInfoInputs.cache
+C:\Users\caden\OneDrive\Databases\csci340lab9\HendrixUniversity\obj\Debug\net7.0\HendrixUniversity.AssemblyInfo.cs
+C:\Users\caden\OneDrive\Databases\csci340lab9\HendrixUniversity\obj\Debug\net7.0\HendrixUniversity.csproj.CoreCompileInputs.cache
+C:\Users\caden\OneDrive\Databases\csci340lab9\HendrixUniversity\obj\Debug\net7.0\HendrixUniversity.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\caden\OneDrive\Databases\csci340lab9\HendrixUniversity\obj\Debug\net7.0\HendrixUniversity.RazorAssemblyInfo.cache
+C:\Users\caden\OneDrive\Databases\csci340lab9\HendrixUniversity\obj\Debug\net7.0\HendrixUniversity.RazorAssemblyInfo.cs
