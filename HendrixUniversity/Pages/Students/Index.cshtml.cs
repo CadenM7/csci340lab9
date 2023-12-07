@@ -1,5 +1,5 @@
-using ContosoUniversity.Data;
-using ContosoUniversity.Models;
+using HendrixUniversity.Data;
+using HendrixUniversity.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -7,7 +7,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ContosoUniversity.Pages.Students
+namespace HendrixUniversity.Pages.Students
 {
     public class IndexModel : PageModel
     {
